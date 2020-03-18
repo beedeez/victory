@@ -128,10 +128,7 @@ export default class VictoryContainer extends React.Component {
     } = props;
     const children = this.getChildren(props);
     const dimensions = responsive ? { width: "100%", height: "auto" } : { width, height };
-    const divStyle = assign(
-      { pointerEvents: "none", touchAction: "none", position: "relative" },
-      dimensions
-    );
+    const divStyle = assign({ touchAction: "none", position: "relative" }, dimensions);
     const portalDivStyle = assign(
       { zIndex: portalZIndex, position: "absolute", top: 0, left: 0 },
       dimensions
