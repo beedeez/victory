@@ -1,3 +1,5 @@
+import VictoryContainer from "../../victory-core/src/victory-container/victory-container";
+
 import {
   Border,
   Box,
@@ -12,7 +14,6 @@ import {
   Text,
   Point,
   VictoryAnimation,
-  VictoryContainer,
   VictoryLabel,
   VictoryTheme,
   VictoryTransition,
